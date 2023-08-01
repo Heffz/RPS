@@ -4,7 +4,6 @@ choices = ["r", "p", "s"]
 p1Wins = 0
 p2Wins = 0
 on = True
-gameCount = 0
 
 while on:
     p1 = input("Rock, Paper or Scissors? ")    
@@ -26,4 +25,5 @@ while on:
     print("p1 wins = " + str(p1Wins) + "\np2 wins = " + str(p2Wins))
     if p1Wins == 5 or p2Wins == 5:
         on = False
+
 
